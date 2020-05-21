@@ -4,5 +4,5 @@ terraform {
 }
 
 provider "google-beta" {
-  region = "europe-west-1"
+  region = var.region
 }

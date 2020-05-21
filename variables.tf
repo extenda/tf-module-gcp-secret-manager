@@ -7,3 +7,8 @@ variable secrets {
   description = "Map of the secrets to be created"
   type        = map(string)
 }
+
+variable region {
+  type    = string
+  default = "europe-west-1"
+}

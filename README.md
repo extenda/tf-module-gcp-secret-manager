@@ -11,6 +11,7 @@
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:-----:|
 | project\_id | Project ID where the secrets are stored | `string` | n/a | yes |
+| labels | The labels assigned to the secret | `map` | `{}` | no |
 | secrets | Map of the secrets to be created | `map(string)` | n/a | yes |
 
 ## Outputs

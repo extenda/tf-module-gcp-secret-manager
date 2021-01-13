@@ -12,3 +12,9 @@ variable region {
   type    = string
   default = "europe-west-1"
 }
+
+variable labels {
+  description = "The labels assigned to the secret"
+  type    = map
+  default = {}
+}

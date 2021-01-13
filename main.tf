@@ -4,9 +4,7 @@ resource "google_secret_manager_secret" "secret_id" {
 
   secret_id = each.key
 
-  labels = {
-    terraform = ""
-  }
+  labels = var.labels
 
   replication {
     automatic = true
